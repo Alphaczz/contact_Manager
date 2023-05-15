@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listitemlayout"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/nameTxtView"
+        android:layout_margin="8dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/emailTxtView"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_height="wrap_content"
+        android:text="Your Phone Number"
+        android:textSize="28sp" />
+
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</layout>
